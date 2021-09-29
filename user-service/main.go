@@ -99,7 +99,7 @@ func UserProduct(w http.ResponseWriter, r *http.Request) {
 	}
 	u := User{
 		ID:       1,
-		Username: "didiyudha@gmail.com",
+		Username: "bennie.anware@gmail.com",
 	}
 	u.Products = p
 	w.Header().Set("Content-Type", "application/json")
